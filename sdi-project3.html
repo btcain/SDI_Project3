@@ -11,13 +11,38 @@
     <h2>Project 3</h2>
 </header>
 <article>
-<p>This script generates an RPG Character Sheet. Check the console for more details.</p>
-<p id="name"></p>
-<p id="class"></p>
-<p id="hp"></p>
-<p id="mp"></p>
-<p id="atk"></p>
-<p id="def"></p>
+<p>This script generates a random RPG Character Sheet, as well as a random Monster sheet. To run a battle, simply click the button and the character sheets will update with the resulting health as well as a victory or defeat message. If you'd like to see the battle in more detail, check the console.log.</p>
+<center><button onclick="battle()">Begin Battle</button></center>
+<center><h3 id="victory"></h3></center>
+<table border="1" bordercolor="#FFCC00" style="background-color:#FFFFCC" width="100%" cellpadding="3" cellspacing="3">
+	<tr>
+		<th>Your Character</th>
+		<th>Monster</th>
+	<tr>
+		<td id ="name">Err47</td>
+		<td id ="mname">Err47</td>
+	</tr>
+	<tr>
+		<td id ="class">Err47</td>
+		<td>Class: Monster</td>
+	</tr>
+	<tr>
+		<td id ="hp">Err47</td>
+		<td id ="mhp">Err47</td>
+	</tr>
+	<tr>
+		<td id="mp">Err47</td>
+		<td id="mmp">Err47</td>
+	</tr>
+	<tr>
+		<td id="atk">Err47</td>
+		<td id="matk">Err47</td>
+	</tr>
+	<tr>
+		<td id ="def">Err47</td>
+		<td id ="mdef">Err47</td>
+	</tr>
+</table>
 </article>
 <script type="text/javascript" src="rpg.js"></script>
 <footer>
