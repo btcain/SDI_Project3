@@ -87,7 +87,6 @@ function mp(){
 // Battle Functions ( Called by Browser )
 function battle(){
 var battle = 1;
-//player goes first, playerturn = 1
 var playerturn = 1;
 var monsterturn = 0;
 while (battle == 1){
